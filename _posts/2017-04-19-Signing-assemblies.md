@@ -19,7 +19,7 @@ The build will fail!
 1. Change the project file to add these propertyGroup:
   1. Add `<keyFilePath><PATH_TO_FILE>\file.snk</keyFilePath>`.
   1. Add this code to the project file
-   {% highlight ruby linenos %}
+   {% highlight xml %}
      <PropertyGroup>
      <SignAssembly>true</SignAssembly>
      </PropertyGroup>
