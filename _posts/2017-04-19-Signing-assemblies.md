@@ -21,10 +21,10 @@ The build will fail!
   1. Add this code to the project file
    {% highlight xml %}
      <PropertyGroup>
-     <SignAssembly>true</SignAssembly>
+       <SignAssembly>true</SignAssembly>
      </PropertyGroup>
      <PropertyGroup>
-     <AssemblyOriginatorKeyFile>$(keyFilePath)</AssemblyOriginatorKeyFile>
+       <AssemblyOriginatorKeyFile>$(keyFilePath)</AssemblyOriginatorKeyFile>
      </PropertyGroup>
    {% endhighlight %}
 1. Now you can build your project by providing `/p:keyFilePath="%KEY_FILE_PATH%"` to MsBuild
