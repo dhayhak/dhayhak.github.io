@@ -8,7 +8,7 @@ title: You Have been Signing .NET Assemblies wrong!
 
 
 
-## Don't hard code you Signing Key file Path
+## Don't hard code you Signing Key file Path!
 
 For a long time, if I want to sign an assembly I'll put this line into the `AssemblyInfo.cs` file
 `[assembly: AssemblyKeyFile(@"<PATH_TO_FILE>\file.snk")]`
