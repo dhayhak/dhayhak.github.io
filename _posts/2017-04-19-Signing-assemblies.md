@@ -5,11 +5,6 @@ published: true
 ---
 
 
-<br/>
-<br/>
-
-
-
 ## Don't hard code you Signing Key file Path!
 
 For a long time, if I want to sign an assembly I'll put this line into the `AssemblyInfo.cs` file
