@@ -19,12 +19,12 @@ The build will fail!
 1. Change the project file to add these propertyGroup:
   1. Add `<keyFilePath><PATH_TO_FILE>\file.snk</keyFilePath>`.
   1. Add this code to the project file
-   ```
+   {% highlight ruby linenos %}
      <PropertyGroup>
      <SignAssembly>true</SignAssembly>
      </PropertyGroup>
      <PropertyGroup>
      <AssemblyOriginatorKeyFile>$(keyFilePath)</AssemblyOriginatorKeyFile>
      </PropertyGroup>
-   ```
+   {% endhighlight %}
 1. Now you can build your project by providing `/p:keyFilePath="%KEY_FILE_PATH%"` to MsBuild
