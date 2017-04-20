@@ -27,4 +27,4 @@ The build will fail!
        <AssemblyOriginatorKeyFile>$(keyFilePath)</AssemblyOriginatorKeyFile>
      </PropertyGroup>
    {% endhighlight %}
-1. Now you can build your project by providing `/p:keyFilePath="%KEY_FILE_PATH%"` to MsBuild
+1. Now you can override the path on build by providing `/p:keyFilePath="%KEY_FILE_PATH%"` to MsBuild.
