@@ -1,3 +1,11 @@
+
+---
+layout: post
+title: I've created a small app to format JSON Anywhere
+published: true
+---
+
+
 Format JSON by just copying it and pressing Alt+B. This will work across app. How awsome is that?! :)
 
 # Story:
