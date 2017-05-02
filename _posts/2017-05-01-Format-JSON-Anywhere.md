@@ -16,4 +16,4 @@ I was going online to format JSON like 10 times an hour. I said it gotta be a be
 ## Install it and enjoy it!
 Format JSON by just copying it and pressing Alt+B. This will work across app. How awsome is that?! :)
 
-[Download](https://github.com/dhayhak/Clipboard-JSON-Beautifier
+[Download](https://github.com/dhayhak/Clipboard-JSON-Beautifier/releases/tag/v1.0)
