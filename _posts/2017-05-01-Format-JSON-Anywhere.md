@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I've created a mall app to format JSON anywhere
+title: I've created a small app to format JSON anywhere
 published: true
 ---
 
